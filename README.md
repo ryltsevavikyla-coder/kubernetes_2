@@ -26,3 +26,22 @@
 **Доступ к NodePort с локального компьютера (страница nginx):**
 
 ![nodeport-browser](https://github.com/ryltsevavikyla-coder/kubernetes_2/blob/main/Screenshot%202026-11-25%20162547.png)
+
+
+
+## Задание 2
+
+### Манифесты
+- [deployment-frontend.yaml](https://github.com/ryltsevavikyla-coder/kubernetes_2/blob/main/deployment-frontend.yaml)
+- [deployment-backend.yaml](https://github.com/ryltsevavikyla-coder/kubernetes_2/blob/main/service-backend.yaml)
+- [service-frontend.yaml](https://github.com/ryltsevavikyla-coder/kubernetes_2/blob/main/service-frontend.yaml)
+- [service-backend.yaml](https://github.com/ryltsevavikyla-coder/kubernetes_2/blob/main/service-backend.yaml)
+- [ingress.yaml](https://github.com/ryltsevavikyla-coder/kubernetes_2/blob/main/ingress.yaml)
+
+
+
+### Скриншоты
+
+**Доступ через Ingress на путь `/` (frontend) и Доступ через Ingress на путь `/api` (backend):**
+
+![ingress-api](https://github.com/ryltsevavikyla-coder/kubernetes_2/blob/main/Screenshot%202026-11-25%20171156.png)
